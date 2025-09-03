@@ -1,0 +1,161 @@
+/* General */
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #cce7f0; /* Sky blue theme */
+  color: #222;
+}
+
+/* Navigation */
+nav {
+  background: #7dcfe0;
+  padding: 15px 0;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+.nav-links {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.nav-links li {
+  margin: 0 20px;
+}
+.nav-links a {
+  text-decoration: none;
+  color: #222;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+.nav-links a:hover {
+  color: #005f73;
+}
+
+/* Sections */
+.section {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+/* Home Card */
+.home-card {
+  background: #7dcfe0;
+  padding: 40px;
+  border-radius: 20px;
+  max-width: 500px;
+  margin: auto;
+  box-shadow: 0 6px 12px rgba(0,0,0,0.1);
+}
+.profile-pic {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+.home-card h1 {
+  font-size: 2rem;
+}
+.home-card h2 span {
+  color: #004b5c;
+}
+.home-card p {
+  font-style: italic;
+  margin-top: 10px;
+}
+
+/* Skills Section */
+.skills-grid {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+.skill-box {
+  background: #7dcfe0;
+  padding: 25px;
+  border-radius: 20px;
+  width: 250px;
+  box-shadow: 0 6px 12px rgba(0,0,0,0.1);
+}
+.skill-box h3 {
+  margin-bottom: 15px;
+  color: #004b5c;
+}
+
+/* Projects */
+.project-card {
+  background: #7dcfe0;
+  padding: 25px;
+  border-radius: 20px;
+  max-width: 600px;
+  margin: auto;
+  box-shadow: 0 6px 12px rgba(0,0,0,0.1);
+}
+.project-card h3 {
+  color: #004b5c;
+  margin-bottom: 10px;
+}
+
+/* Footer */
+footer {
+  background: #7dcfe0;
+  padding: 20px;
+  text-align: center;
+}
+.social-icons {
+  margin-bottom: 10px;
+}
+.social-icons a {
+  margin: 0 10px;
+  font-size: 28px;
+  color: #222;
+  transition: 0.3s;
+}
+.social-icons a:hover {
+  color: #004b5c;
+}
+/* Contact Section */
+.contact-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 30px;
+}
+
+.contact-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 200px;
+  height: 60px;
+  font-size: 18px;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 12px;
+  color: white;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+/* Box Colors */
+.linkedin {
+  background: #0077b5; /* LinkedIn blue */
+}
+.github {
+  background: #333; /* GitHub black */
+}
+.instagram {
+  background: #e1306c; /* Instagram pink */
+}
+.email {
+  background: #d44638; /* Gmail red */
+}
+
+/* Hover effect */
+.contact-box:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(0,0,0,0.2);
+}
